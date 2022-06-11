@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Pies | Bethany's pie shop</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .checked {
+            color: #c565cE;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</li>
+                <li><a href="pies.html">Pies</a></li>
+                <li><a href="contact.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <aside><img src="images\logo.png" alt="Bethany's pie shop logo"></aside>
+        <article>
+            <h1>
+                Pies
+            </h1>
+            <p id="pieId">Click <i class="fa fa-shopping-cart"></i> to add a pie to your cart (Limit 1 each type).
+                <button id="orderButton">Go to Cart</button>
+            </p>
+            <p id="itemsInCart"></p>
+            <section class="columns-desktop">
+                <div class="pie">
+                    <img src="images\apple-pie.png " alt="Apple Pie" title="Apple Pie">
+                    <div class="columns">
+                        <div class="title">Apple Pie</div>
+                        <div class="price">$12.95</div><i id="cartToggle" data-order="applepie"
+                            class="fa fa-shopping-cart"></i>
+                    </div>
+                    <p class="desc">Our famous apple pie</p>
+                </div>
+                <div class="pie">
+                    <img src="images\cherry-pie.png" alt="Cherry-pie" title="Cherry-pie">
+                    <div class="columns">
+                        <div class="title">Cheery Pie</div>
+                        <div class="price">$15.95</div><i id="cartToggle" data-order="cheerypie"
+                            class="fa fa-shopping-cart"></i>
+                    </div>
+                    <p class="desc">Don't miss this summer classic!</p>
+                </div>
+                <div class="pie">
+                    <img src="images\cranberrypie.jpg" alt="Cranberrypie" title="Cranberrypie">
+                    <div class="columns">
+                        <div class="title">Cranberrypie</div>
+                        <div class="price">$18.95</div><i id="cartToggle" data-order="cranberrypie"
+                            class="fa fa-shopping-cart"></i>
+                    </div>
+                    <p class="desc">A new Fall tradition</p>
+                </div>
+                <div class="pie">
+                    <img src="images\cheesecake..jpg" alt="Cheesecake" title="Cheesecake">
+                    <div class="columns">
+                        <div class="title">Cheesecake</div>
+                        <div class="price">$13.95</div><i id="cartToggle" data-order=" cheesecake"
+                            class="fa fa-shopping-cart"></i>
+                    </div>
+                    <p class="desc">Plain cheesecake? Pure plasure! </p>
+                </div>
+                <div class="pie">
+                    <img src="images\peachpie.jpg" alt="Peach Pie" title="Peach Pie">
+                    <div class="columns">
+                        <div class="title">Peach Pie</div>
+                        <div class="price">$18.95</div><i id="cartToggle" data-order="peachpie"
+                            class="fa fa-shopping-cart"></i>
+                    </div>
+                    <p class="desc">Better believe it's peachy keen! </p>
+                </div>
+                <div class="pie">
+                    <img src="images\pumpkinpie.jpg" alt="Pumpkin Pie" title="Pumpkin Pie">
+                    <div class="columns">
+                        <div class="title">Pumpkin Pie</div>
+                        <div class="price">$13.95</div><i id="cartToggle" data-order="pumpkinpie"
+                            class="fa fa-shopping-cart"></i>
+                    </div>
+                    <p class="desc">Our Halloween delight </p>
+                </div>
+                <div class="pie">
+                    <img src="images\christmasapplepie.jpg" alt="Christmas Apple Pie" title="Christmas Apple Pie">
+                    <div class="columns">
+                        <div class="title">Christmas Apple Pie</div>
+                        <div class="price">$19.95</div><i id="cartToggle" data-order="christmasapplepie"
+                            class="fa fa-shopping-cart"></i>
+                    </div>
+                    <p class="desc">Happy Holidays with this pie </p>
+                </div>
+                <div class="pie">
+                    <img src="images\blueberrycheesecake.jpg" alt="Blueberry Cheesecake" title="Blueberry Cheesecake">
+                    <div class="columns">
+                        <div class="title">Blueberry Cheesecake</div>
+                        <div class="price">$17.95</div><i id="cartToggle" data-order="blueberrycheesecake"
+                            class="fa fa-shopping-cart"></i>
+                    </div>
+                    <p class="desc">So berry, berry good you'll swoon! </p>
+                </div>
+                <div class="pie">
+                    <img src="images\rhubarbpie.jpg" alt="Rhubarb Pie" title="Rhubarb Pie">
+                    <div class="columns">
+                        <div class="title"> Rhubarb Pie </div>
+                        <div class="price">$21.95</div><i id="cartToggle" data-order="rhubarbpie"
+                            class="fa fa-shopping-cart"></i>
+                    </div>
+                    <p class="desc">Perfectly sweet, Perfectly tart. </p>
+                </div>
+                <div class="pie">
+                    <img src="images\strawberrypie.jpg" alt="Strawberry Pie" title="Strawberry Pie">
+                    <div class="columns">
+                        <div class="title">Strawberry Pie</div>
+                        <div class="price">$18.95</div><i id="cartToggle" data-order="strawberrypie"
+                            class="fa fa-shopping-cart"></i>
+                    </div>
+                    <p class="desc">Our delicious take on a classic </p>
+                </div>
+                <div class="pie">
+                    <img src="images\strawberrycheesecake.jpg" alt="Stawberry Cheese Cake"
+                        title="Stawberry Cheese Cake">
+                    <div class="columns">
+                        <div class="title">Stawberry Cheese Cake</div>
+                        <div class="price">$14.95</div><i id="cartToggle" data-order="strawberrycheesecake"
+                            class="fa fa-shopping-cart"></i>
+                    </div>
+                    <p class="desc">Award-winning favourite 3 years running </p>
+                </div>
+
+            </section>
+        </article>
+    </main>
+    <footer>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pies.html">Pies</a></li>
+                <li><a href="contact.html">About Us</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+<script src="./script.js"></script>
+
+</html>
